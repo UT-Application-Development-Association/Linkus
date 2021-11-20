@@ -1,0 +1,49 @@
+.btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #c9d5b5;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 4px;
+  color: rgba(0, 0, 0, 0.8);
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  filter: brightness(0.98);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.btn-small {
+  padding: 2px 6px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.btn-large {
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-larger {
+  font-weight: bold;
+  padding: 16px 32px;
+  font-size: 18px;
+  border-radius: 12px;
+}
+
+.btn-danger {
+  background-color: #ff8484;
+}
+
+.btn-primary {
+  background: #52997f;
+  color: white;
+}

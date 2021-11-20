@@ -1,0 +1,28 @@
+.search-container{
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  min-height: 100vh;
+
+  .header-container{
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .body-container{
+    display: flex;
+    .filter-container{
+      flex-basis: 25%;
+      margin-top: 3%;
+      margin-left: 10%;
+    }
+
+    .results-container{
+      margin-right: 10%;
+      flex-basis: 55%;
+      margin-top: 3%;
+    }
+  }
+}

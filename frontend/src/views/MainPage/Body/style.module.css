@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    height: 100%;
+}
+.centerWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    user-select: none;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    margin-bottom: 57px;
+
+    font-size: 100px;
+    line-height: 127px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Days One', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.searchWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+
+    margin-bottom: 10%;
+}
+.leftBar{
+    background: #19B565;
+    width: 4px;
+    height: 65px;
+    user-select: none;
+}
+.inputWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+
+    width: 576px;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0 20px 50px rgba(8, 2, 46, 0.14);
+    border-radius: 0;
+}
+.input{
+    text-indent: 20px;
+    width: inherit;
+    height: inherit;
+    font-size: 17px;
+    line-height: 26px;
+    color: #051441;
+    opacity: 0.5;
+}
+

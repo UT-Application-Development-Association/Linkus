@@ -1,0 +1,40 @@
+.right{
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    user-select: none;
+    padding-right: 24px;
+    justify-content: flex-end;
+}
+.right * + * {
+    margin-left: 24px;
+}
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius:22px;
+    cursor: pointer;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    font-size: initial;
+}
+
+.signoutBtn {
+    cursor: pointer;
+}
+.link{
+    text-decoration: inherit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #051441;
+    user-select: none;
+    cursor: pointer;
+}

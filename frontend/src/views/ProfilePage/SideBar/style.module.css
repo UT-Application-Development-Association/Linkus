@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+}
+.avatar{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20%;
+}
+.title{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #8C8CA1;
+
+    margin-bottom: 2%;
+}
+.content{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #3E3E3E;
+}
+.slot{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+}
+

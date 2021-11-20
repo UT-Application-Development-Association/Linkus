@@ -1,0 +1,105 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bodyWrapper {
+    display: flex;
+    min-height: 90%;
+    margin: 3% 15% 0 15%;
+    flex-direction: column;
+    background-color: white;
+    border: solid lightgrey;
+    filter: drop-shadow(5px 5px 5px grey);
+    padding: 3% 3% 0 3%;
+}
+
+.titleWrapper{
+    display: flex;
+    margin: 0 15% 0 15%;
+    justify-content: center;
+}
+
+.title{
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 30px;
+    color: #52997F;
+    -webkit-text-stroke: 2px #C9D5B5;
+}
+
+.requestWrapper{
+    display: flex;
+    min-height: 250px;
+    margin: 3% 15% 3% 15%;
+    background-color: white;
+    border: solid lightgrey;
+    filter: drop-shadow(3px 3px 3px grey);
+    padding: 3% 3% 0 3%;
+    flex-direction: column;
+}
+
+.requestHeader{
+    display: flex;
+}
+
+
+.avatar{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+
+.nameWrapper{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.name{
+    font-family: Abel, serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.yearWrapper{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.year{
+    font-family: Abel, serif;
+    font-style: normal;
+    font-weight: normal;
+    color: #A1A1AA;
+}
+
+.requestBody{
+    display: flex;
+}
+
+.requestInfoWrapper{
+    margin-left: 3%;
+    margin-top: 3%;
+    display: flex;
+    max-width: 400px;
+    margin-bottom: 3%;
+}
+
+.requestInfo{
+    font-family: Poppins, serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.buttonWrapper{
+    margin-top: 7%;
+    margin-left: 3%;
+}
+
+.rejectButton{
+    min-width: 78px;
+    background: #FF8585;
+}

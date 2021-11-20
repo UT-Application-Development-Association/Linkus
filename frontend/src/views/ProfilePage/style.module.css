@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.bodyWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    display: flex;
+    width: 90%;
+}
+.sidebarContainer{
+    display: flex;
+    flex-basis: 30%;
+}
+.rightContainer{
+    display: flex;
+    flex-basis: 70%;
+    flex-direction: column;
+}

@@ -1,0 +1,19 @@
+{
+    "title": "CSC369 A3",
+    "description": "2022 Winter CSC369 A2",
+    "owner": {
+        "uuid": "1111",
+        "username": "Gareth"
+    },
+    "members": [
+        {
+            "uuid": "2222",
+            "username": "Ethan"
+        },
+        {
+            "uuid": "3333",
+            "username": "David"
+        }
+    ]
+
+}

@@ -1,0 +1,21 @@
+{
+    "email": "abc@mail.com",
+    "avatar": "<OPTIONAL>",
+    "role": 0,
+    "profile": {
+        "yearOfStudy": 3,
+        "program": "CS",
+        "username": "Gareth",
+        "exGPA": 3.7,
+        "bio": "Hello",
+        "courses": ["CSC369", "CSC373"],
+        "comments": [
+            {
+                "profilePic": "<OPTIONAL>",
+                "user": "Eric",
+                "userId": "lolidk",
+                "comment": "This guy is pog."
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.particles{
+    z-index: -1;
+    position: absolute;
+    background-color: #9F9F92;
+    height: 100%;
+    width: 100%;
+}

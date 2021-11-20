@@ -1,0 +1,17 @@
+.mainLayout {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  flex-direction: column;
+
+  .headerWrapper {
+    flex: 0 0 auto;
+    min-height: 44px;
+  }
+
+  .mainWrapper {
+    flex: 1;
+    overflow: auto;
+    box-sizing: border-box;
+  }
+}

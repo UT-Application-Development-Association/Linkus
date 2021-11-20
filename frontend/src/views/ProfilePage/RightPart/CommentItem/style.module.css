@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    align-items: center;
+    border-top: 1px #000000 solid;
+    border-bottom: 1px #000000 solid;
+    padding: 1% 0 1% 0;
+    margin: 1% 0 1% 0;
+    position: relative;
+}
+.btn-report{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: #C9D5B5;
+    font-size: 13px;
+    line-height: 150%;
+    color: #000000;
+    width: 60px;
+    height: 32px;
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.btn-report:hover{
+    background-color: #b6c2a0;
+  }
+.avatar{
+    display: flex;
+    flex-basis: 10%;
+
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+}
+.name{
+    display: flex;
+    flex-basis: 20%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #0F1419;
+}
+.content{
+    display: flex;
+    flex-basis: 70%;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+}

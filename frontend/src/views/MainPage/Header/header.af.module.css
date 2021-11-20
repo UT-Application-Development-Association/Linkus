@@ -1,0 +1,58 @@
+.menuContainer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-basis: 50%;
+    user-select: none;
+    padding-right: 24px;
+}
+.menuContainer * + * {
+    margin-left: 32px;
+}
+.link{
+    text-decoration: inherit;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #051441;
+    user-select: none;
+}
+.avatarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    cursor: pointer;
+    user-select: none;
+}
+.avatarCircle{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #D4D4D8;
+    transform: matrix(0.7, 0.73, -0.69, 0.7, 0, 0);
+    margin-bottom: 2px;
+    user-select: none;
+}
+.avatar {
+    width: 44px;
+    height: 44px;
+    border-radius:22px;
+    cursor: pointer;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    font-size: initial;
+}
+
+.signoutBtn {
+    cursor: pointer;
+}

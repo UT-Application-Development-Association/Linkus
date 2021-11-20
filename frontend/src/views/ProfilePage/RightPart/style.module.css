@@ -1,0 +1,75 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+.title{
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+.content{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #3E3E3E;
+}
+.bioContainer{
+    display: flex;
+    flex-direction: column;
+
+    padding: 2% 4% 2% 4%;
+    background: #EBF3FF;
+}
+.courseContainer{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2%;
+}
+.commentContainer{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 2%;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.buttonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 428px;
+    height: 94px;
+    background: rgba(82, 153, 127, 0.3);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+.buttonLink{
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+
+    user-select: none;
+    cursor: pointer;
+}
+
+.emptyMessage {
+    opacity: .7;
+    font-size: 14px;
+    line-height: 2;
+}

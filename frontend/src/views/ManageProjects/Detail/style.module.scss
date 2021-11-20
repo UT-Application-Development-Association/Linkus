@@ -1,0 +1,82 @@
+.loading {
+  text-align: center;
+  padding: 32px;
+}
+
+.detailScren {
+  height: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 24px;
+
+  h1, h2, h3, h4 {
+    margin: 0;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 12px;
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+
+    h1 {
+      margin-right: 12px;
+    }
+
+    button {
+      flex-shrink: 0;
+      margin-left: auto;
+    }
+  }
+
+  section {
+    padding: 20px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.103);
+    margin: 24px 0;
+
+    p {
+      opacity: 0.7;
+    }
+
+    .tag {
+      margin-right: 8px;
+      border-radius: 16px;
+      padding: 4px 18px;
+      color: white;
+      font-size: 14px;
+      background-color: #72c74a;
+    }
+  }
+
+  .taskListWrapper {
+    display: flex;
+
+    .taskList {
+      margin: 12px;
+      flex: 1;
+      flex-basis: calc((100% - 24px * 3)/3);
+      color: rgba(0, 0, 0, 0.925);
+      margin-top: 0;
+
+      h4 {
+        margin-bottom: .5em;
+      }
+
+      .taskCard {
+        background-color: #C9D5B5;
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 14px;
+        text-decoration: none;
+        margin-bottom: 12px;
+      }
+
+      .desc {
+        margin: 1em 0;
+      }
+    }
+  }
+}

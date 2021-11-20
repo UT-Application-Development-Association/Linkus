@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend for Linkus",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"&&exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "handlebars": "^4.7.7",
+    "hbs": "^4.2.0",
+    "js-md5": "^0.7.3",
+    "mongoose": "^6.2.7",
+    "validator": "^13.7.0"
+  }
+}

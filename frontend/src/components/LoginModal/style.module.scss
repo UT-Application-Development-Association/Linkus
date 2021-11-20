@@ -1,0 +1,129 @@
+.login-modal-layer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all .3s ease;
+  opacity: 0;
+  animation-timing-function: ease-out;
+  visibility: hidden;
+
+  .mask-layer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  &.visible {
+    visibility: visible;
+    opacity: 1;
+    .login-modal {
+      transform: translateY(0);
+    }
+  }
+
+  input {
+    background-color: rgba(82, 153, 127, 0.2);
+    padding: 12px 10px;
+    border-radius: 4px;
+    border: none;
+    color: rgba(0, 0, 0, 0.8);
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    &:focus {
+      outline: 1px solid #52997f;
+    }
+  }
+
+  .login-modal {
+    position: relative;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 32px 60px;
+    display: flex;
+    flex-direction: column;
+    transition: all .3s ease;
+    transform: translateY(-32px);
+
+    .brand-logo {
+      color: #52997f;
+      font-size: 32px;
+      line-height: 1;
+      margin-top: 0;
+      margin-bottom: 52px;
+      margin-top: 12px;
+    }
+
+    .title {
+      font-size: 44px;
+      margin: 0;
+    }
+
+    .form-wrapper {
+      margin-top: 28px;
+      width: 478px;
+
+      .form-item {
+        &+.form-item {
+          margin-top: 16px;
+        }
+        .label {
+          margin-top: 0;
+          margin-bottom: 8px;
+          display: flex;
+          flex-wrap: nowrap;
+          align-items: center;
+
+          &-extra {
+            margin-left: auto;
+            opacity: .8;
+          }
+        }
+      }
+    }
+
+    .signin-link {
+      font-size: 13px;
+      text-align: center;
+      margin-top: 24px;
+      margin-bottom: 0;
+      opacity: .5;
+      color: black;
+
+      a {
+        margin-left: 1em;
+        font-weight: bold;
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    
+    .error-message {
+      margin-bottom: .5em;
+      margin-top: 0;
+      color: #db2b2b;
+      align-self: flex-start;
+    }
+
+    .login-btn {
+      text-transform: uppercase;
+      font-weight: bold;
+      line-height: 32px;
+      margin-top: 40px;
+      align-self: center;
+    }
+  }
+}
