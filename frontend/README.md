@@ -1,4 +1,4 @@
-# vue-starter-project
+# Linkus
 
 ## Project setup
 ```
